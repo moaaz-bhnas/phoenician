@@ -1,6 +1,17 @@
-import { NextIntlProvider } from 'next-intl'
+import { NextIntlProvider } from "next-intl";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
+  const { locale } = useRouter();
+
+  useEffect(() => {
+    const dir = locale === "ar" ? "rtl" : "ltr";
+    const lang = locale === "ar" ? "ar" : "en";
+    document.querySelector("html").setAttribute("dir", dir);
+    document.querySelector("html").setAttribute("lang", lang);
+  }, [locale]);
+
   return (
     <NextIntlProvider
       // To achieve consistent date, time and number formatting
@@ -8,9 +19,9 @@ export default function App({ Component, pageProps }) {
       formats={{
         dateTime: {
           short: {
-            day: 'numeric',
-            month: 'short',
-            year: 'numeric',
+            day: "numeric",
+            month: "short",
+            year: "numeric",
           },
         },
       }}
@@ -25,5 +36,5 @@ export default function App({ Component, pageProps }) {
     >
       <Component {...pageProps} />
     </NextIntlProvider>
-  )
+  );
 }

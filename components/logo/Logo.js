@@ -2,7 +2,7 @@ import { memo } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-function Logo({ width = 60 }) {
+function Logo({ width = 50 }) {
   const t = useTranslations("Navigation");
 
   return (

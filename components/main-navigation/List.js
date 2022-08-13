@@ -10,9 +10,9 @@ const StyledList = styled.ul`
 `;
 
 const navigationLinks = [
-  { text: "About us", href: "/about" },
-  { text: "Services", href: "/services" },
-  { text: "Contacts", href: "/contacts" },
+  { text: "about", href: "/about" },
+  { text: "services", href: "/services" },
+  { text: "contacts", href: "/contacts" },
 ];
 
 function List() {

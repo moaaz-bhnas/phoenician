@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "index": "Home",
+    "about": "About us",
+    "services": "Services",
+    "contacts": "Contacts",
     "switchLocale": "{locale, select, ar {العربية} en {English} other {}}",
     "logoAlt": "Phoenician logo"
   }

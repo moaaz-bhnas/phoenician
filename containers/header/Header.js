@@ -14,8 +14,8 @@ const Title = styled.h1`
 
 const Container = styled.div`
   ${containerStyles}
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
   display: flex;
   align-items: center;

@@ -1,6 +1,9 @@
 {
   "Navigation": {
     "index": "الصفحة الرئيسية",
+    "about": "نبذة عنا",
+    "services": "الخدمات",
+    "contacts": "اتصل بنا",
     "switchLocale": "{locale, select, ar {العربية} en {English} other {}}",
     "logoAlt": "شعار Phoenician"
   }

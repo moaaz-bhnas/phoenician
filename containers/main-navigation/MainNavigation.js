@@ -3,7 +3,14 @@ import styled from "styled-components";
 import List from "../../components/main-navigation/List";
 import LogoLink from "../../components/main-navigation/LogoLink";
 
-const StyledNavigation = styled.nav``;
+const StyledNavigation = styled.nav`
+  flex: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+`;
 
 function Navigation() {
   return (

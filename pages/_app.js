@@ -1,6 +1,7 @@
 import { NextIntlProvider } from "next-intl";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { GlobalStyles } from "../utils/Style";
 
 export default function App({ Component, pageProps }) {
   const { locale } = useRouter();
@@ -34,6 +35,7 @@ export default function App({ Component, pageProps }) {
       // in a different time zone.
       timeZone="Austria/Vienna"
     >
+      <GlobalStyles />
       <Component {...pageProps} />
     </NextIntlProvider>
   );

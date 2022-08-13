@@ -1,8 +1,13 @@
 import { memo } from "react";
 import styled from "styled-components";
+import { rawList } from "../../utils/Style";
 import Item from "./Item";
 
-const StyledList = styled.ul``;
+const StyledList = styled.ul`
+  ${rawList}
+
+  display: flex;
+`;
 
 const navigationLinks = [
   { text: "About us", href: "/about" },

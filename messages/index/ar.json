@@ -1,6 +1,6 @@
 {
   "Index": {
-    "title": "Home",
+    "title": "الصفحة الرئيسية",
     "description": "هذه الصفحة تستخدم رسائل من <code>./messages/index/{locale}.json</code> و <code>./messages/shared/{locale}.json</code>. لم يتم تحميل رسائل الصفحات الأخرى."
   }
 }

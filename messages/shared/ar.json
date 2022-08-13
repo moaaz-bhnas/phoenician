@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "index": "Home",
-    "switchLocale": "Switch to {locale, select, ar {Arabic} en {English} other {}}"
+    "index": "الصفحة الرئيسية",
+    "switchLocale": "{locale, select, ar {العربية} en {English} other {}}"
   }
 }

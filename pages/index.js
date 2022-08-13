@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/router";
 import styled from "styled-components";
-import PageLayout from "../components/PageLayout";
+import Layout from "../containers/layout/Layout";
 
 const P = styled.p``;
 
@@ -9,16 +9,7 @@ export default function Index() {
   const t = useTranslations("Index");
   const { locale } = useRouter();
 
-  return (
-    <PageLayout title={t("title")}>
-      {/* <P>
-        {t("description", {
-          locale,
-          code: (children) => <Code>{children}</Code>,
-        })}
-      </P> */}
-    </PageLayout>
-  );
+  return <Layout>Home</Layout>;
 }
 
 export function getStaticProps({ locale }) {

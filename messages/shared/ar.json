@@ -1,6 +1,7 @@
 {
   "Navigation": {
     "index": "الصفحة الرئيسية",
-    "switchLocale": "{locale, select, ar {العربية} en {English} other {}}"
+    "switchLocale": "{locale, select, ar {العربية} en {English} other {}}",
+    "logoAlt": "شعار Phoenician"
   }
 }

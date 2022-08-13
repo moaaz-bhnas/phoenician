@@ -1,6 +1,7 @@
 {
   "Navigation": {
     "index": "Home",
-    "switchLocale": "{locale, select, ar {العربية} en {English} other {}}"
+    "switchLocale": "{locale, select, ar {العربية} en {English} other {}}",
+    "logoAlt": "Phoenician logo"
   }
 }

@@ -5,7 +5,8 @@ import { containerStyles, offScreen } from "../../utils/Style";
 import MainNavigation from "../main-navigation/MainNavigation";
 
 const StyledHeader = styled.header`
-  background-color: rgba(255, 255, 0, 0.4);
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
 `;
 
 const Title = styled.h1`

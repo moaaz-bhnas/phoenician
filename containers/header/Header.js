@@ -1,6 +1,7 @@
 import { memo } from "react";
 import styled from "styled-components";
 import LanguageSwitch from "../../components/header/LanguageSwitch";
+import data from "../../utils/data";
 import { containerStyles, offScreen } from "../../utils/Style";
 import MainNavigation from "../main-navigation/MainNavigation";
 
@@ -25,7 +26,7 @@ const Container = styled.div`
 function Header() {
   return (
     <StyledHeader>
-      <Title>Phoenician</Title>
+      <Title>{data.title}</Title>
 
       <Container>
         <MainNavigation />

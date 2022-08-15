@@ -12,7 +12,7 @@ export default function Index() {
 
   return (
     <Layout>
-      <Banner />
+      <Banner page="Index" imagePath="/images/index-banner.jpg" />
     </Layout>
   );
 }

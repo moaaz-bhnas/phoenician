@@ -1,23 +1,24 @@
 import { memo } from "react";
 import { useTranslations } from "next-intl";
 import styled from "styled-components";
-import { containerStyles } from "../../utils/Style";
+import { containerStyles, sizes } from "../../utils/Style";
+import Text from "../../components/banner/Text";
+import Photo from "../../components/banner/Photo";
 
 const Article = styled.article`
   ${containerStyles}
+  padding: 0;
+
+  display: flex;
+  height: 25rem;
+  background-color: #dff2f2;
 `;
 
-const Title = styled.h2``;
-
-const P = styled.p``;
-
-function Banner() {
-  const t = useTranslations("Index.Banner");
-
+function Banner({ page, imagePath }) {
   return (
     <Article>
-      <Title>{t("title")}</Title>
-      <P>{t("body")}</P>
+      <Text />
+      <Photo imagePath={imagePath} />
     </Article>
   );
 }

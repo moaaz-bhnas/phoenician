@@ -3,7 +3,10 @@
     "title": "Home",
     "description": "This page uses messages from <code>./messages/index/{locale}.json</code> and <code>./messages/shared/{locale}.json</code>. Messages from the about page and other locales are not loaded.",
     "Banner": {
-      "title": "Phoenician Marine Engineering",
+      "title": {
+        "line1": "Phoenician Marine",
+        "line2": "Engineering"
+      },
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend turpis nulla, imperdiet lobortis nulla tempor ut. Aenean vel laoreet lacus."
     }
   }

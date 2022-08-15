@@ -3,7 +3,10 @@
     "title": "الصفحة الرئيسية",
     "description": "هذه الصفحة تستخدم رسائل من <code>./messages/index/{locale}.json</code> و <code>./messages/shared/{locale}.json</code>. لم يتم تحميل رسائل الصفحات الأخرى.",
     "Banner": {
-      "title": "Phoenician للهندسة البحرية",
+      "title": {
+        "line1": "Phoenician للهندسة",
+        "line2": "البحرية"
+      },
       "body": "لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر."
     }
   }

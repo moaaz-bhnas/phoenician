@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import styled from "styled-components";
 import Banner from "../containers/banner/Banner";
 import Layout from "../containers/layout/Layout";
+import Ocean from "../containers/ocean/Ocean";
 
 const P = styled.p``;
 
@@ -12,7 +13,8 @@ export default function Index() {
 
   return (
     <Layout>
-      <Banner page="Index" imagePath="/images/index-banner.jpg" />
+      {/* <Banner page="Index" imagePath="/images/index-banner.jpg" /> */}
+      <Ocean />
     </Layout>
   );
 }

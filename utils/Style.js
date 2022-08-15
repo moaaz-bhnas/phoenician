@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
 export const theme = {
   text: {
     default: "#32838c",
+    sand: "#7c6941",
     // brand: "#1f70e6",
     // grey: "#737373",
     // link: "#4d4dff",

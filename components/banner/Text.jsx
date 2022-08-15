@@ -4,15 +4,24 @@ import styled from "styled-components";
 import Title from "./Title";
 import usePage from "../../hooks/usePage";
 import capitalize from "../../utils/helpers/capitalize";
+import { theme } from "../../utils/Style";
 
 const StyledText = styled.div`
   flex: 0 50%;
 
-  padding: 3.5rem;
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 3.5rem 10rem;
+
+  color: ${theme.text.sand};
 `;
+
+const Container = styled.div``;
 
 const P = styled.p`
   font-size: 1.1rem;
+  max-width: 20rem;
 `;
 
 function Text() {
@@ -21,8 +30,10 @@ function Text() {
 
   return (
     <StyledText>
-      <Title />
-      <P>{t("body")}</P>
+      <Container>
+        <Title />
+        <P>{t("body")}</P>
+      </Container>
     </StyledText>
   );
 }

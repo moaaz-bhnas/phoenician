@@ -6,7 +6,7 @@ import Text from "../../components/banner/Text";
 import Photo from "../../components/banner/Photo";
 
 const Article = styled.article`
-  ${containerStyles}
+  /* ${containerStyles} */
   padding: 0;
 
   display: flex;

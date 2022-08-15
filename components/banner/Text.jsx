@@ -13,14 +13,13 @@ const StyledText = styled.div`
   justify-content: flex-end;
 
   padding: 3.5rem 10rem;
-
-  color: ${theme.text.sand};
 `;
 
 const Container = styled.div``;
 
 const P = styled.p`
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  line-height: 1.35;
   max-width: 20rem;
 `;
 

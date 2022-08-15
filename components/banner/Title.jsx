@@ -24,7 +24,7 @@ const Line = styled.span`
   position: relative;
   z-index: 1;
 
-  &::before {
+  /* &::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -40,7 +40,7 @@ const Line = styled.span`
     &::before {
       animation-delay: 0.15s;
     }
-  }
+  } */
 `;
 
 const Br = styled.br``;

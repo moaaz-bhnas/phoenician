@@ -10,8 +10,9 @@ const Article = styled.article`
   padding: 0;
 
   display: flex;
-  height: 25rem;
-  background-color: #dff2f2;
+  height: calc(100vh - ${sizes.height.header});
+  color: #fff;
+  background-color: #0084a6;
 `;
 
 function Banner({ page, imagePath }) {

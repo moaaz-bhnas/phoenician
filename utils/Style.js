@@ -61,9 +61,9 @@ export const sizes = {
   // width: {
   //   card: "30rem",
   // },
-  // height: {
-  //   header: "3.7rem",
-  // },
+  height: {
+    header: "4rem",
+  },
   gutter: {
     default: "1rem",
     smallScreen: ".8rem",

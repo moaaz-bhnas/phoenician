@@ -3,7 +3,10 @@ import Link from "next/link";
 import styled from "styled-components";
 import Logo from "../logo/Logo";
 
-const StyledLink = styled.a``;
+const StyledLink = styled.a`
+  display: flex;
+  align-items: center;
+`;
 
 function LogoLink() {
   return (

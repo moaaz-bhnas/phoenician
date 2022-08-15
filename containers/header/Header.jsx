@@ -2,7 +2,7 @@ import { memo } from "react";
 import styled from "styled-components";
 import LanguageSwitch from "../../components/header/LanguageSwitch";
 import data from "../../utils/data";
-import { containerStyles, offScreen } from "../../utils/Style";
+import { containerStyles, offScreen, sizes } from "../../utils/Style";
 import MainNavigation from "../main-navigation/MainNavigation";
 
 const StyledHeader = styled.header`
@@ -16,8 +16,7 @@ const Title = styled.h1`
 
 const Container = styled.div`
   ${containerStyles}
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  height: ${sizes.height.header};
 
   display: flex;
   align-items: center;

@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import { memo } from "react";
 import styled from "styled-components";
 import LanguageSwitch from "../../components/header/LanguageSwitch";
@@ -22,9 +23,11 @@ const Container = styled.div`
 `;
 
 function Header() {
+  const { locale } = useRouter();
+
   return (
     <StyledHeader>
-      {/* <Title>{data.title}</Title> */}
+      <Title locale={locale}>{data.title}</Title>
 
       <Container>
         <MainNavigation />

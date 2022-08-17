@@ -1,6 +1,7 @@
 import { memo } from "react";
 import styled, { keyframes } from "styled-components";
 import Bubble from "../../components/ocean/Bubble";
+import Text from "../../components/ocean/Text";
 import { sizes } from "../../utils/Style";
 
 const wave = keyframes`
@@ -66,6 +67,7 @@ const bubbles = Array(7)
 function Ocean() {
   return (
     <StyledOcean>
+      <Text />
       {bubbles.map((bubble, index) => (
         <Bubble
           key={index}

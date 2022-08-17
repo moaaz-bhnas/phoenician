@@ -111,5 +111,6 @@ export const rawLink = css`
 
 export const offScreen = css`
   position: absolute;
-  left: -200rem;
+  left: ${({ locale }) => (locale === "en" ? "-200rem" : null)};
+  right: ${({ locale }) => (locale === "ar" ? "-200rem" : null)};
 `;

@@ -7,7 +7,6 @@ import MainNavigation from "../main-navigation/MainNavigation";
 
 const StyledHeader = styled.header`
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
 `;
 
 const Title = styled.h1`
@@ -25,7 +24,7 @@ const Container = styled.div`
 function Header() {
   return (
     <StyledHeader>
-      <Title>{data.title}</Title>
+      {/* <Title>{data.title}</Title> */}
 
       <Container>
         <MainNavigation />

@@ -25,6 +25,7 @@ const Container = styled.div`
   position: absolute;
   bottom: -4rem;
   left: ${({ left }) => left + "%"};
+  z-index: 1;
 
   animation: ${({ duration, delay }) =>
     css`

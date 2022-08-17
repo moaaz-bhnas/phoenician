@@ -8,6 +8,10 @@
         "line2": "Engineering"
       },
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend turpis nulla, imperdiet lobortis nulla tempor ut. Aenean vel laoreet lacus."
+    },
+    "Ocean": {
+      "title": "Phoenician Marine Engineering",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend turpis nulla, imperdiet lobortis nulla tempor ut. Aenean vel laoreet lacus."
     }
   }
 }
